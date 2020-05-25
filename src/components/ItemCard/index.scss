@@ -1,0 +1,31 @@
+.Card {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px 5px 10px 5px;
+  box-shadow: 3px 2px;
+  height: 13vh;
+  width: 15vw;
+  margin: 5px;
+}
+
+.Card__label {
+  flex: 2;
+  margin: auto 5px;
+  font-size: 1.2rem;
+  overflow: hidden;
+}
+
+.Card__icons {
+  cursor: pointer;
+}
+
+@media screen
+and (max-width: 420px)
+and (max-height: 840px) {
+  .Card {
+    width: 38vw;
+  }
+  .Card__label {
+    font-size: 0.8rem;
+  }
+}
